@@ -93,11 +93,11 @@
         <artifactId>android</artifactId>
         <version>${android.version}</version>
       </dependency>
-      <dependency>
-        <groupId>com.google.android</groupId>
-        <artifactId>support-v4</artifactId>
-        <version>${android-support.version}</version>
-      </dependency>
+    <dependency>
+        <groupId>android.support</groupId>
+        <artifactId>compatibility-v4</artifactId>
+        <version>13</version>
+    </dependency>
       <dependency>
         <groupId>com.nineoldandroids</groupId>
         <artifactId>library</artifactId>
